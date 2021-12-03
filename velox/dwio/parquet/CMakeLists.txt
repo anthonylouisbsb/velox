@@ -16,4 +16,5 @@ add_subdirectory(reader)
 
 if(${VELOX_BUILD_TESTING})
   add_subdirectory(tests)
+  add_subdirectory(benchmarks)
 endif()
